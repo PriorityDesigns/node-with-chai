@@ -6,7 +6,7 @@ node server with chai testing scaffolding
   - docker-compose
 
 ## Instructions
-- Ensure Docker is installed
-- Run ./build-dev.sh
+- Ensure Docker is installed and running
+- Run `./build-dev.sh`
 - Output is in test > `test_results.md`
   - saving changes should trigger a rerun of tests
