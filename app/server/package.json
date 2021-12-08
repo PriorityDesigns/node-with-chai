@@ -1,0 +1,31 @@
+{
+  "name": "node-with-chai",
+  "version": "1.0.0",
+  "description": "Test app for testing node with chai",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^3.3.2",
+    "express": "^4.16.3",
+    "http": "0.0.1-security",
+    "https": "^1.0.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000 > ./test/test_results.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriorityDesigns/node-with-chai.git"
+  },
+  "author": "amorganPD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PriorityDesigns/node-with-chai/issues"
+  },
+  "homepage": "https://github.com/PriorityDesigns/node-with-chai#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.0"
+  }
+}

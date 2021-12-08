@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  api:
+    image: nodewithchai:latest
+    restart: always
+    logging:
+      options:
+        max-size: "4k"
+        max-file: "3"
+    environment:
+      - NODE_ENV=${NODE_ENVIRONMENT}
+    ports:
+      - 4000:4000
+      - 8080:8080
+    volumes:
+      - "${NODE_API_VOLUME}:/data/app"
